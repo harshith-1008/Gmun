@@ -9,16 +9,17 @@ import Comittee from './Comittee'
 import Footer from './Footer'
 
 function App() {
+
   return (
-    <div className='relative '>
+    <div className='relative scroll-smooth'>
       <img src={backgroundimg} className="relative h-[850px] w-full"></img>
       <div className='absolute top-0 flex flex-col items-center'>
         <Navbar />
         <Home />
       </div>
-      <About />
-      <Comittee />
-      <Footer />
+      <div id="aboutUS"><About /></div>
+      <div id="comittee"><Comittee /></div>
+      <div id="contact"><Footer/></div>
     </div>
   )
 }
