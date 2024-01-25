@@ -4,13 +4,13 @@ export default function SinglePerson(props) {
     const specialId = props.id === 1 || props.id === 3;
     let className = "flex flex-col basis-1/3 items-center mb-10";
     if(specialId) {
-        className += " mt-28";
+        className += " md:mt-28";
     }
     if(props.id === 1){
-        className += " pl-40"
+        className += " md:pl-40"
     }
     if(props.id === 3){
-        className += " pr-40"
+        className += " md:pr-40"
     }
 
     return (

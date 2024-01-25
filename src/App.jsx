@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className='relative scroll-smooth'>
-      <img src={backgroundimg} className="relative h-[850px] w-full"></img>
+      <img src={backgroundimg} className="relative md:h-[53.125rem] h-[30rem] w-full"></img>
       <div className='absolute top-0 flex flex-col items-center'>
         <Navbar />
         <Home />
