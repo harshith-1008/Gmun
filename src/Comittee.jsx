@@ -1,6 +1,6 @@
 import React from "react";
 import Data from "./info";
-import SinglePerson from "./singlePerson";
+import SinglePerson from "./SinglePerson";
 
 export default function Comittee(){
     const students = Data.map(person => {

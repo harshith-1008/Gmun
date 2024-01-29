@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import './Navbar'
 import Navbar from './Navbar'
@@ -7,6 +6,8 @@ import backgroundimg from "./assets/Background-image.jpg"
 import About from './About'
 import Comittee from './Comittee'
 import Footer from './Footer'
+import Sponser from './Sponser'
+import Gallery from './Gallery'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
       </div>
       <div id="aboutUS"><About /></div>
       <div id="comittee"><Comittee /></div>
+      <div id="sponser"><Sponser/></div>
+      <div id="Gallery"><Gallery/></div>
       <div id="contact"><Footer/></div>
     </div>
   )
